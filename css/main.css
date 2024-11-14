@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/Path.png);
+    background-repeat: no-repeat, repeat;
+    background-position: 100% 100%;   
+}
+
+main {
+    width: 70%;
+    padding: 80px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+p {
+    font-family: "League Spartan", sans-serif;
+}
+
+.statistical-presentation {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    padding-left: 36px;
+    padding-right: 36px;
+
+}
+
+
+
+.presentation-text {
+    width: 60%;
+}
+
+
+.title {
+    font-family: "League Spartan", sans-serif;
+    font-size: 56px;
+    color: #512051;
+}
+
+.text-overview{
+    font-size: 20px;
+    color :#927B91 ;
+}
+
+
+
+.rating {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.review-box {
+    background: #F7F2F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 445px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+
+}
+
+
+.text-rating {
+    font-size: 16px;
+    font-weight: bold;
+    color: #512051;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.presentation-sheet {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px;
+
+}
+
+.card {
+    width:  350px;
+    border-radius: 8px;
+    background: #512051;
+    padding: 30px;
+}
+
+.card p {
+    color: white;
+    font-size: 16px;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+}
+
+.information img {
+    width: 40px;
+    height: 40px;
+}
+
+.information-name {
+    font-family: "League Spartan", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    padding-left: 20px;
+}
+
+.information span {
+    color: #EE69A4;
+    font-weight: lighter;
+}
